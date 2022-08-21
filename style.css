@@ -1,0 +1,158 @@
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+.default {
+  background-image: url(./images/default\ image.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cloudy {
+  background-image: url(./images/cloudy\ background.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rainy {
+  background-image: url(./images/rainy\ background.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sun {
+  background-image: url(./images/hot\ weather\ background.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cold {
+  background-image: url(./images/cold\ weather\ background.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.night {
+  background-image: url(./images/Night\ time\ background.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#userLocation {
+  border-radius: 10px;
+  margin: 10px;
+  height: 3em;
+  width: 15em;
+  outline: none;
+  background-color: azure;
+  font-family: inherit;
+}
+/* #searchButton {
+  border-radius: 50%;
+  margin: 1em;
+  height: 3em;
+  width: 3em;
+  outline: none;
+  border-width: 0.1em;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  background: rgb(36, 35, 35);
+} */
+
+/* p {
+  font-weight: 400;
+} */
+
+.date {
+  color: white;
+  margin-left: 10px;
+}
+
+.lightDateText {
+  color: white;
+  margin-left: 10px;
+}
+
+#content {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#content div {
+  margin: 5px;
+}
+
+#content h1 {
+  color: white;
+  font-weight: 400;
+  /* margin: 10px; */
+}
+
+#content h2 {
+  font-size: 5em;
+  color: white;
+  font-weight: 400;
+  margin: 0px;
+  /* margin: 10px; */
+}
+
+#location {
+  color: cadetblue;
+  /* margin: 10px; */
+}
+
+#content div img {
+  height: 50px;
+  width: 50px;
+}
+
+#description {
+  text-transform: capitalize;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: cadetblue;
+  color: white;
+  width: auto;
+
+  height: 50%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  align-self: center;
+  justify-self: flex-start;
+}
+
+/* img {
+  width: 3rem;
+  color: black;
+} */
